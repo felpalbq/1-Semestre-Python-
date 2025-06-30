@@ -1,4 +1,4 @@
-lista = (1, 2, 3, 4, 5) #### tupla
+'''lista = (1, 2, 3, 4, 5) #### tupla
 soma = 0
 qntd = 0
 for valor in lista: #### percorre cada item da tupla
@@ -25,4 +25,8 @@ for i in range(10): #### Criar uma lista com 10 itens
 
 for numero in range(10): #### Criar uma lista e caso seja um número par (resto 0), imprima-o
     if numero % 2 == 0:
-        print(numero)
+        print(numero)'''
+
+nome=input("Digite um nome: ")
+for letra in nome:
+    print(letra)
